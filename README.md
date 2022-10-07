@@ -1,56 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Morse code message
 
-> Description the project.
+> Use Ruby to decode Morse code message.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- **Languages:** Ruby
+- **Tools & Methods:** Git, GitHub, TDD, Chrome Dev Tools
+- **Technology used:** RuboCop
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+- Code editor
+- Computer
+- Internet
 
 ### Setup
 
-### Install
+### Clone this repository
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- $ _git clone https://github.com/PNdunguMaina/vet_clinic_database.git
+- $ _cd Morse code message_
 
 ## Authors
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Patrick Maina**
+- GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
+- LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/pamphilemkp)
+- Twitter: [@twitterhandle](https://twitter.com/PamphileMusonda)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/pamphile-musonda)
+
+
+👤 **Author3**
+
+- GitHub: [Piercel2022](https://github.com/Piercel2022)
+- Twitter: [pier_celestin](https://twitter.com/pier_celestin)
+- LinkedIn: [piercelestin](https://linkedin.com/in/piercelestinmax)
+
 
 ## 🤝 Contributing
 
