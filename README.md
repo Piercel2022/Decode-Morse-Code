@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Morse code message
+# Description
+During our vacation at the seaside, time after time you find old bottles with parchment inside. Out of curiosity, we look into the next bottle and see that there is a message written in Morse code. Our curiosity grows even more - maybe we just found the lost treasure of the pirates! However, we are getting tired of decrypting messages manually. Fortunately, we can program in Ruby and we can help ourselves by automating this process.
 
 > Use Ruby to decode Morse code message.
 
