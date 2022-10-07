@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # instance variable storing Morse code alphabets
 @moose_code_alphabet = {
   '.-' => 'A',
@@ -39,7 +37,7 @@ end
 
 # method to decode an entire word in Morse code
 def decode_word(word)
-  @letters = word.split(' ')
+  @letters = word.split
   @current_word = ' '
   @letters.each do |letter|
     decode_char(letter)
