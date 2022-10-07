@@ -36,8 +36,8 @@
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/pamphilemkp)
-- Twitter: [@twitterhandle](https://twitter.com/PamphileMusonda)
+- GitHub: [@pamphilemkp](https://github.com/pamphilemkp)
+- Twitter: [@PamphileMusonda](https://twitter.com/PamphileMusonda)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/pamphile-musonda)
 
 
