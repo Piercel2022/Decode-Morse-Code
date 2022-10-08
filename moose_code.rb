@@ -1,4 +1,5 @@
 # instance variable storing Morse code alphabets
+# rubocop:disable Metrics/MethodLength
 def decode_char(char)
   morse_code = { '.-' => 'A',
                  '-...' => 'B',
@@ -46,3 +47,4 @@ def decode_message(message)
     decode_word(word)
   end
 end
+# rubocop:enable  Metrics/MethodLength
