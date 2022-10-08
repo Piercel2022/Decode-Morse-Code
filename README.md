@@ -53,7 +53,7 @@ During our vacation at the seaside, time after time you find old bottles with pa
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Piercel2022/Decode-Morse-Code/issues)
 
 ## Show your support
 
