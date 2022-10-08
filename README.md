@@ -25,8 +25,8 @@ During our vacation at the seaside, time after time you find old bottles with pa
 
 ### Clone this repository
 
-- $ _git clone https://github.com/PNdunguMaina/vet_clinic_database.git
-- $ _cd Morse code message_
+- git clone https://github.com/Piercel2022/Decode-Morse-Code.git
+- cd Decode-Morse-Code
 
 ## Authors
 
@@ -69,4 +69,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
