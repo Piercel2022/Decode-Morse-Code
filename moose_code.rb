@@ -1,50 +1,21 @@
-# instance variable storing Morse code alphabets
-# rubocop:disable Metrics/MethodLength
-def decode_char(char)
-  morse_code = { '.-' => 'A',
-                 '-...' => 'B',
-                 '-.-.' => 'C',
-                 '-..' => 'D',
-                 '.' => 'E',
-                 '..-.' => 'F',
-                 '--.' => 'G',
-                 '....' => 'H',
-                 '..' => 'I',
-                 '.---' => 'J',
-                 '-.-' => 'K',
-                 '.-..' => 'L',
-                 '--' => 'M',
-                 '-.' => 'N',
-                 '---' => 'O',
-                 '.--.' => 'P',
-                 '--.-' => 'Q',
-                 '.-.' => 'R',
-                 '...' => 'S',
-                 '-' => 'T',
-                 '..-' => 'U',
-                 '...-' => 'V',
-                 '.--' => 'W',
-                 '-..-' => 'X',
-                 '-.--' => 'Y',
-                 '--..' => 'Z' }
-  morse_code[char]
+def decode_char(str)
+  alphabets = {
+    '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E', '..-.' => 'F', '--.' => 'G',
+    '....' => 'H', '..' => 'I', '.---' => 'J', '-.-' => 'K', '.-..' => 'L', '--' => 'M', '-.' => 'N',
+    '---' => 'O', '.--.' => 'P', '--.-' => 'Q', '.-.' => 'R', '...' => 'S', '-' => 'T', '..-' => 'U',
+    '...-' => 'V', '.--' => 'W', '-..-' => 'X', '-.--' => 'Y', '--..' => 'Z'
+  }
+  alphabets[str]
 end
 
-# method to decode an entire word in Morse code
 def decode_word(word)
-  @letters = word.split
-  @current_word = ' '
-  @letters.each do |letter|
-    decode_char(letter)
-    @current_word += decode_char(letter)
-  end
+  word_split = word.split
+  word_split.map { |string| decode_char(string) }.join
 end
 
-# method to decode an entire message in Morse code
 def decode_message(message)
-  @words = message.split('   ')
-  @words.each do |word|
-    decode_word(word)
-  end
+  message_split = message.split('  ')
+  message_split.map { |word| decode_word(word) }.join(' ')
 end
-# rubocop:enable  Metrics/MethodLength
+
+print decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
