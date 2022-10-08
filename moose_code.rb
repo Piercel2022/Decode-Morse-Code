@@ -34,3 +34,13 @@ def decode_char(letter)
   @current_char = @moose_code_alphabet[letter].upcase
   @current_char
 end
+
+# method to decode an entire word in Morse code
+def decode_word(word)
+  @letters = word.split
+  @current_word = ' '
+  @letters.each do |letter|
+    decode_char(letter)
+    @current_word += decode_char(letter)
+  end
+end
